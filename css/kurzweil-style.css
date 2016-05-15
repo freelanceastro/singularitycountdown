@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Orator;
+    src: url(../fonts/OratorStd.otf);
+}
+
+body {
+	font-family: Orator;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+#clockdiv{
+	/*font-family: sans-serif;*/
+	/*color: #fff;*/
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 60px;
+}
+
+#clockdiv > div{
+	padding: 0px;
+	border-radius: 0px;
+	/*background: #00BF96;*/
+	padding-bottom: 0px;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 0px;
+	border-radius: 0px;
+	/*font-size: 60px;*/
+	/*background: #00816A;*/
+	display: inline-block;
+}
+
+.smalltext{
+	margin-top: -16px;
+	font-size: 12px;
+}
+
+.mastfoot p{
+	color: white;
+	font-size: 17px;
+}	
+
+.btn{
+	background: #30b17a;
+	border: 0px;
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	padding-top: 9px;
+    padding-bottom: 1px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+#disclaimer{
+	font-size: 10px;
+	color: white;
+}
+
+.alert-overlay{
+	position: fixed;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background: black;
+	opacity: 0.85;
+	z-index: 10;
+}
+
+.alert-box{
+	position: absolute;
+	top: 20vh;
+	left: 25vw;
+	height: 20%;
+	width: 50%;
+	color: white;
+	font-size: 20px;
+	z-index: 11;
+	pointer-events: none;
+}
